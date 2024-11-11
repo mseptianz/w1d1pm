@@ -1,0 +1,40 @@
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+
+Jawab : 
+NoSQL adalah singkatan dari Not Only SQL. Database management system ini bersifat tanpa relasi (non-relational). Artinya, NoSQL bisa mengelola database dengan skema yang fleksibel dan tidak membutuhkan query yang kompleks. Dengan pendekatan ini, NoSQL mempunyai skalabilitas tinggi untuk dapat berkembang sesuai dengan kebutuhan data yang ada. Tak heran, database management ini dianggap paling cocok untuk mengolah big data yang selalu berubah-ubah sekalipun.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+Jawab : 
+Basis data NoSQL cocok digunakan untuk membangun aplikasi seluler, IoT, game, dan web dengan performa tinggi yang membutuhkan pengalaman pengguna yang optimal dalam skala besar. NoSQL menawarkan fleksibilitas dan skalabilitas yang luas, sehingga cocok untuk berbagai kasus penggunaan yang kompleks. Namun, untuk mendapatkan pemahaman yang lebih mendalam tentang basis data NoSQL dan kapan sebaiknya menggunakannya dibandingkan dengan Relational Database Management System (RDBMS), penting untuk mempelajari kelebihan, keterbatasan, serta karakteristik masing-masing jenis basis data.
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+Jawab : 
+a. MongoDB
+MongoDB adalah salah satu database NoSQL yang banyak digunakan karena fleksibilitasnya dalam menyimpan data. Dengan struktur data JSON, MongoDB memungkinkan penyimpanan data dalam berbagai bentuk tanpa memerlukan skema yang kaku sejak awal, sehingga cocok untuk aplikasi yang dinamis dan terus berkembang. Selain itu, MongoDB menawarkan skalabilitas yang tinggi, fitur kueri yang kuat, dan memiliki komunitas pengguna besar. Database ini cocok untuk berbagai aplikasi, seperti e-commerce dan analisis data.
+
+b. Apache Cassandra
+Apache Cassandra merupakan pilihan ideal bagi aplikasi yang memerlukan performa tinggi dan skalabilitas luar biasa. Cassandra dirancang untuk menangani dataset besar dengan waktu respons yang sangat cepat, serta tahan terhadap kegagalan node sehingga dapat tetap beroperasi dengan andal. Dengan model data column-family, Cassandra sangat efisien untuk data yang terstruktur baik dan cocok untuk aplikasi yang memerlukan ketersediaan tinggi dan performa konsisten, seperti aplikasi real-time dan IoT.
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+
+Jawab : 
+Airflow adalah alat yang digunakan untuk mengatur workflow atau alur kerja otomatis, khususnya yang berkaitan dengan data. Dengan bantuan Airflow, kita dapat menjalankan berbagai tugas dalam urutan yang kita tetapkan, seperti proses ekstraksi data, pembersihan data, dan akhirnya penyimpanan data di lokasi yang dimaksud.
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+
+Jawab : 
+Great Expectations adalah alat untuk mengevaluasi kualitas data yang kita miliki. Jadi, jika kita sering bekerja sama dengan data yang membutuhkan akurasi tinggi, Great Expectations ini dapat membantu menentukan apakah data itu memenuhi harapan kita atau tidak.
+
+6. Batch processing adalah inti dari pengolahan data dalam jumlah besar sekaligus, biasanya dalam satu waktu tertentu. Ini berbeda dengan mengumpulkan data secara terpisah saat data masuk (seperti dalam waktu nyata), dan kemudian mengolah semua data sekaligus dalam satu batch. Untuk data yang tidak perlu diproses segera, proses ini biasanya digunakan.
+
+Contoh kasus penggunaan: laporan keuangan bulanan perusahaan Data transaksi dikumpulkan selama sebulan sebelum diproses untuk membuat laporan akhir bulan daripada menghitung keuangan tiap transaksi secara real-time. Contoh lain adalah data dari sensor di mesin industri, yang mungkin dikumpulkan selama beberapa hari atau jam sebelum dianalisis untuk menemukan pola atau kerusakan.
+
+Tools yang Digunakan: Beberapa alat yang umum untuk pengolahan batch termasuk:
+
+- Apache Hadoop: Ini biasanya digunakan untuk batch processing, terutama untuk data yang besar. Hadoop lebih cepat karena dapat ngolah data secara paralel di banyak komputer.
+- Apache Spark: Spark banyak dipilih untuk batch processing karena lebih cepat daripada Hadoop, tetapi juga dapat melakukan proses real-time.
+- AWS Batch adalah layanan dari Amazon yang memungkinkan pekerjaan batch dijalankan di cloud.
+
+ Oleh karena itu, kita dapat mengatur kapan dan bagaimana batch processing berjalan tanpa mempertimbangkan server.Proses ngolah data dalam jumlah besar sekaligus, biasanya dalam satu waktu tertentu, dikenal sebagai pengolahan batch. Oleh karena itu, pengolahan batch ini mengumpulkan data daripada ngolah satu-satu setiap data yang masuk, seperti dalam waktu nyata.
